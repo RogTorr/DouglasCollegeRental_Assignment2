@@ -1,12 +1,14 @@
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 
-public class HelloWorld {
+public class HelloWorld extends JPanel{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello Luis!");
-		System.out.println("Hello World!!");
-		System.out.println("Roger Torres");
 
+		JFrame frame = new JFrame("Hello World");
+		frame.setVisible(true);
+		frame.setSize(500,500);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
 }
