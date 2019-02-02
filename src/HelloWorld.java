@@ -5,6 +5,7 @@ public class HelloWorld extends JPanel{
 
 	public static void main(String[] args) {
 
+		System.out.print("Richard");
 		JFrame frame = new JFrame("Hello World");
 		frame.setVisible(true);
 		frame.setSize(500,500);
